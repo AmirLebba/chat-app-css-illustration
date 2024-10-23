@@ -1,0 +1,29 @@
+.body {
+    background-color: white;
+    border-radius: 20px;
+    border: 1px black solid;
+    height: 100%;
+    padding: 10px;
+    position: relative;
+}
+.Notch {
+    z-index: 1;
+    background-color: var(--Light-Grayish-Violet);
+    border: 1px black solid;
+    height: 25px;
+    width: 120px;
+    position: absolute;
+    left: 27%;
+    top: 0;
+    border-radius: 10px;
+}
+.screen {
+    height: 100%;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+.navbar {
+    height: 20%;
+    background: linear-gradient(90deg, var(--Moderate-Violet), var(--Very-Light-Magenta));
+    border-radius: 10px 10px 0 0;
+}

@@ -1,0 +1,25 @@
+aside {
+  position: fixed;
+  left: -50px;
+  background: linear-gradient(0deg, var(--Moderate-Violet), var(--Very-Light-Magenta));
+  
+  width: 40%;
+  height: 85lvh;
+  border-radius: 0 0 50% 50%;
+  
+  
+}
+
+main {
+  display: flex;
+  z-index: 1;
+  border: 1px black solid;
+  max-width: 500px;
+  width: 100%;
+  min-height: 350px;
+  
+}
+main section{
+  min-width: 50%;
+  min-height: 100%;
+}
