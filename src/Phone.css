@@ -26,4 +26,61 @@
     height: 20%;
     background: linear-gradient(90deg, var(--Moderate-Violet), var(--Very-Light-Magenta));
     border-radius: 10px 10px 0 0;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+    padding-bottom: 0;
+    
+}
+
+.arrow{
+    
+    width: 10px;
+    height: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 4px;
+    rotate: 45deg   ;
+    border: 4px var(--Light-Grayish-Violet) solid;
+    border-radius: 3px;
+    border-right: 0;
+    border-top: 0;
+}
+.info{
+    
+    display: flex;
+}
+.info img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px var(--Light-Grayish-Violet) solid;
+    font-size: 10px;
+}
+.info div{
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+.info #name{
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 5px;
+}
+.info #status{
+    font-size: 9px;
+    color: var(--Pale-Violet);
+}
+.dots{
+    margin-top: 5px;
+}
+.dots div{
+    width: 3px;
+    height: 3px;
+    background-color: var(--Light-Grayish-Violet);
+    border-radius: 50%;
+    margin: 2px ;
 }
