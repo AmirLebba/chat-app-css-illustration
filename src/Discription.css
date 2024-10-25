@@ -1,0 +1,17 @@
+.message {
+    padding-left: 60px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 2rem;
+}
+.message h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--Very-Dark-Blue);
+    margin-bottom: 15px;
+}
+.message p {
+    color: var(--Dark-Grayish-Violet);
+}

@@ -1,5 +1,6 @@
 import './App.css';
 import Phone from "./Phone"
+import Discription from "./Discription"
 function App() {
   return (
     <>  
@@ -10,7 +11,9 @@ function App() {
         <section className='phone'>
           <Phone/>
         </section>
-        <section className='message'></section>
+        <section className='message'>
+          <Discription/>
+        </section>
       </main>
     </>
   );
