@@ -105,9 +105,7 @@
     margin: 5px 0 5px 0;
     background-color: var(--Grayish-Blue);
 }
-#Provider{
 
-}
 #Client{
     display: flex;
     flex-direction: column;

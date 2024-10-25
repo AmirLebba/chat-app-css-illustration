@@ -31,9 +31,9 @@ function Phone() {
                         </div>
                         <div id='Client'>
                             <div>
-                                <img src={Dog1} alt="Dog photo" />
-                                <img src={Dog2} alt="Dog photo" />
-                                <img src={Dog3} alt="Dog photo" />
+                                <img src={Dog1} alt="Dog " />
+                                <img src={Dog2} alt="Dog " />
+                                <img src={Dog3} alt="Dog " />
                             </div>
                             <p id='text'>Here are a few pictures. She's a happy girl!</p>
                             <p id='text'>Can you make it?</p>
